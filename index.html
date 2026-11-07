@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals | Jessie Mae Pabatang | Personal homepage featuring information about me, the Philippines, and web development resources.">
+    <meta name="author" content="Jessie Mae Pabatang">
+    <title>WDD 131 – Dynamic Web Fundamentals – Jessie Mae Pabatang</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Jessie</h1>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Jessie Mae Pabatang</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    Hello! My name is Jessie Mae Pabatang.
+                    I am from the Philippines. I enjoy learning
+                    about web development, technology, and
+                    creating interactive websites.
+                </p>
+                <img src="images/profile.webp" alt="Portrait of Jessie Mae Pabatang" width="200" height="250">
+            </div>
+
+            <h3>Philippines</h3>
+            <div class="country-content">
+                <img src="images/philippines.webp" alt="Flag of the Philippines" width="200" height="120">
+                <p>
+                    The Philippines is a country in Southeast
+                    Asia consisting of more than 7,000 islands.
+                    It is known for its beautiful beaches,
+                    rich culture, and friendly people.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/">
+                        MDN Web Docs
+                    </a></li>
+                <li><a href="https://www.w3schools.com/">
+                        W3Schools
+                    </a></li>
+                <li><a href="https://css-tricks.com/">
+                        CSS-Tricks
+                    </a></li>
+                <li><a href="https://www.freecodecamp.org/">
+                        freeCodeCamp
+                    </a></li>
+                <li><a href="https://www.udemy.com/">
+                        Udemy
+                    </a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span>
+            | Jessie Mae Pabatang | Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
